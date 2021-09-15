@@ -1,7 +1,7 @@
 <?php
 /*
 Plugin Name: Basic Repeater Tabs for ACF
-Plugin URI:  https://basicby.design
+Plugin URI:  https://basicby.design/basic-repeater-tabs-for-acf
 Description: Vertical and Horizontal Tabs for ACF Repeater Fields
 Version:     1.0.0
 Author:      Basic By Design
