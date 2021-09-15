@@ -10,6 +10,16 @@ License URI: https://opensource.org/licenses/MIT
 
 Turn ACF repeaters into tabs for a compact way to manage repeating data.  
 
+== Usage ==
+
+Enable per repeater in the ACF field group settings.
+
+A new setting is added above 'Conditional Logic' where you can select from 3 layout options:
+
+* Off
+* Vertical
+* Horizontal
+
 == Simplify your admin UI ==
 
 Tabs are housed vertically or horizontally.  
