@@ -147,7 +147,6 @@ jQuery(document).ready(function ($) {
     initVars: function() {
       TabbedRepeaters.confirm_delete = false
       TabbedRepeaters.clss = ".brt-activated"
-      TabbedRepeaters.acf_version = parseFloat(brt_for_acf_args.acf_version);
       TabbedRepeaters.repeaters = []
     },
 
