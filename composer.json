@@ -1,0 +1,11 @@
+{
+    "name": "boost-dev/acf-repeater-tab-ui",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Michael James",
+            "email": "michael@boostmetrica.com"
+        }
+    ],
+    "require": {}
+}
