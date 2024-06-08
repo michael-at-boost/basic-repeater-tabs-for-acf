@@ -1,0 +1,332 @@
+.rtui-activated.rtui-vertical {
+  position: relative;
+}
+
+.rtui-activated.rtui-horizontal {
+  position: relative;
+}
+
+.rtui-activated > .acf-repeater > table > tbody > tr > td.acf-row-handle.order,
+.rtui-activated
+  > .acf-repeater
+  > table
+  > tbody
+  > tr
+  > td.acf-row-handle.remove
+  > a.acf-icon.-plus.small,
+.rtui-activated
+  > .acf-repeater
+  > table
+  > thead
+  > tr
+  > th.acf-row-handle:first-child {
+  display: none;
+}
+
+.rtui-activated > .acf-repeater > table > tbody > tr.acf-row:not(.active) {
+  display: none;
+}
+
+.rtui-activated > .rtui-tabs {
+  min-height: 20px;
+  background: #f5f5f5;
+  box-sizing: border-box;
+}
+
+.rtui-activated.rtui-horizontal > .rtui-tabs {
+  min-height: 45px;
+  border: #ccd0d4 solid 1px;
+  padding-right: 10px;
+  width: 100%;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.rtui-activated.rtui-horizontal
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle {
+  width: 0;
+  padding: 0;
+  border: none;
+}
+
+.rtui-activated.rtui-horizontal > .rtui-tabs > .nav {
+  padding: 10px 10px 0;
+  position: relative;
+  z-index: 2;
+  margin-bottom: -1px;
+  flex: 1;
+}
+
+.rtui-activated > .acf-repeater > .acf-table {
+  position: relative;
+}
+
+.rtui-activated > .acf-repeater > table > tbody > tr > td {
+  border-top: none;
+}
+
+.rtui-activated {
+  border: 1px solid #ededed;
+}
+.rtui-activated > .acf-repeater > .acf-table {
+  margin-bottom: 0;
+  border: none;
+}
+
+.rtui-activated.rtui-horizontal > .acf-repeater > .acf-table {
+  border-top: 1px solid #ededed;
+}
+
+.rtui-activated.rtui-vertical {
+  padding-left: 0;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+}
+
+.rtui-activated.rtui-vertical > .rtui-tabs {
+  position: relative;
+  display: block;
+  flex: 0 0 20%;
+  width: initial;
+}
+
+button.rtui-tab {
+  cursor: pointer;
+  background: #f1f1f1;
+  border-color: #ccd0d4;
+  padding: 5px 10px;
+  display: inline-block;
+  color: #555;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  border: #ccc solid 1px;
+  border-top-color: rgb(204, 204, 204);
+  border-right-color: rgb(204, 204, 204);
+  border-bottom-color: rgb(204, 204, 204);
+  border-bottom-style: solid;
+  border-bottom-width: 1px;
+  border-left-color: rgb(204, 204, 204);
+  border-bottom: 0 none;
+  border-bottom-color: currentcolor;
+  text-decoration: none;
+  transition: none;
+  margin: 0 0.5em 0 0;
+}
+
+.rtui-tabs > .rtui-nav > button.rtui-tab.active {
+  background: #ffffff;
+  color: #000;
+  position: relative;
+  z-index: 1;
+}
+
+.rtui-horizontal > .rtui-tabs > .rtui-nav > button.rtui-tab.active {
+  padding-bottom: 6px;
+  margin-bottom: -1px;
+}
+
+/******************************
+         vertical
+*******************************/
+
+.rtui-activated.rtui-vertical > .rtui-tabs > .rtui-nav > button.rtui-tab {
+  display: block;
+  width: 90%;
+  width: calc(100% - 0.5em + 1px);
+  border: #ccc solid 1px;
+  border-right: none;
+  margin-right: none;
+  margin-top: 0.5em;
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.rtui-activated.rtui-vertical > .acf-repeater.-block {
+  width: 100%;
+}
+
+.rtui-activated.rtui-vertical > .acf-repeater.-block > .acf-table {
+  margin-bottom: 0;
+}
+
+.rtui-activated.rtui-vertical
+  > .acf-repeater.-block
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-fields
+  > .acf-field.acf-field-columngroup
+  > .acf-field:first-child {
+  margin-top: 0;
+}
+
+.rtui-activated.rtui-vertical > .rtui-tabs > .acf-actions a,
+.rtui-activated.rtui-vertical > .rtui-tabs > .acf-actions button {
+  margin-top: 0.5em;
+  width: 120px;
+  text-align: center;
+}
+
+.rtui-activated.rtui-vertical > .rtui-tabs > .acf-actions {
+  padding-left: 0.5em;
+  padding-right: 0.5em;
+  /*text-align: left;*/
+  order: 1;
+}
+
+.rtui-activated.rtui-vertical > .rtui-tabs > .rtui-nav {
+  order: 2;
+}
+
+.rtui-activated.rtui-vertical > .rtui-tabs {
+  padding-bottom: 0.5em;
+  max-width: 20%;
+  display: flex;
+  flex-direction: column;
+}
+
+.rtui-activated.rtui-vertical
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle {
+  position: static;
+  width: 0;
+  padding: 0;
+  border: none;
+}
+
+.rtui-activated.rtui-vertical
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-minus {
+  display: block;
+  position: absolute;
+  top: 15px;
+  /*this places the button hidden beneath our remove*/
+  /*it will be positioned to be central to that button with js*/
+  right: calc(125% - 30px - 0.5em);
+}
+
+.rtui-activated > .rtui-tabs > .acf-actions {
+  flex-wrap: wrap;
+  display: flex;
+}
+
+.rtui-activated.rtui-horizontal > .rtui-tabs > .acf-actions {
+  align-items: center;
+}
+
+.rtui-activated.rtui-vertical > .rtui-tabs > .acf-actions {
+  justify-content: space-between;
+}
+
+.rtui-activated.rtui-horizontal
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-minus {
+  display: block;
+  position: absolute;
+  top: -30px;
+  right: 20px;
+}
+
+.rtui-remove-btn,
+.rtui-activated
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-minus.button {
+  width: initial;
+  height: initial;
+  background-color: transparent;
+  border-color: #ccc;
+  color: #b32d2e;
+  font-size: 13px;
+  line-height: 2.15384615;
+  min-height: 30px;
+  margin: 0;
+  padding: 0 10px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+  -webkit-appearance: none;
+  border-radius: 3px;
+  white-space: nowrap;
+  box-sizing: border-box;
+}
+
+.rtui-activated.rtui-horizontal > .rtui-tabs > .acf-actions > .rtui-remove-btn {
+  margin-right: 10px;
+}
+
+.rtui-activated
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-minus.button:hover {
+  background-color: #d63638;
+  color: #fff;
+  border-color: #d63638;
+  color: #d63638;
+}
+
+.rtui-activated
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-minus.button::before {
+  display: none;
+}
+
+.rtui-activated
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-minus.button:hover::before {
+  display: block;
+  position: absolute;
+  left: 50%;
+  background-color: #fff;
+  border-radius: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.rtui-activated
+  > .acf-repeater
+  > .acf-table
+  > tbody
+  > .acf-row
+  > .acf-row-handle
+  > .acf-icon.-duplicate {
+  right: 9px;
+  top: 18px;
+}
